@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./sources/style/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div id="Heading"><span>Bill Split</span></div>
+      <hr />
+      <div class="container">
+        <div class="input">
+          <div class="head">Bill</div>
+          <div class="dollar"><p>$</p></div>
+          <input type="number" placeholder="Enter amount" id="bill-amount" />
+
+          <div class="head">Select Tip</div>
+          <div class="tip">
+            <button class="tip-percentage">5%</button>
+            <button class="tip-percentage">10%</button>
+            <button class="tip-percentage">15%</button>
+            <button class="tip-percentage">25%</button>
+            <button class="tip-percentage">50%</button>
+            <button class="tip-percentage">75%</button>
+          </div>
+          <div class="dollar">$</div>
+          <input type="number" placeholder="Custom Tip" id="custum-tip" />
+          <div class="head">Number Of People</div>
+          <input type="number" id="People" placeholder="1" />
+          <button class="generate">Generate Bill</button>
+        </div>
+        <div class="output">
+          <div class="output-section">
+            <p>Tip Amount</p>
+            <div id="tip-amt"></div>
+          </div>
+          <div class="output-section">
+            <p>Total</p>
+            <div id="total-amt"></div>
+          </div>
+          <div class="output-section">
+            <p>Each Person Bill</p>
+            <div id="per-amt"></div>
+          </div>
+          <button id="reset">Reset</button>
+        </div>
+      </div>
+    </div>
+    <script src="./sources/script/script.js"></script>
+  </body>
+</html>
