@@ -23,7 +23,7 @@ billAmount.addEventListener("input", () => {
 tipPercentage.forEach((btn) => {
   btn.addEventListener("click", (e) => {
     tipPercentage.forEach((btn) => {
-      btn.style.border = "2px solid transparent ";
+      btn.style.border = "none ";
     });
     e.target.style.border = "2px solid rgb(255, 217, 0) ";
     percentage = parseFloat(e.target.textContent);
