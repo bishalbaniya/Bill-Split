@@ -197,3 +197,13 @@ button:active {
 button {
   box-shadow: 2px 2px 10px 1px rgb(90, 88, 88);
 }
+
+@media (max-width: 797px) {
+  .container {
+    height: auto;
+  }
+
+  body {
+    height: 100%;
+  }
+}
