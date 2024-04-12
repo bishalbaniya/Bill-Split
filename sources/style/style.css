@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: cursive;
 }
 
 body {
   height: 100%;
+  font-family: cursive;
   background-color: cadetblue;
 }
 
@@ -55,7 +55,7 @@ hr {
 
 .input {
   /* background-color: salmon; */
-  height:450px;
+  height: 450px;
   width: 100%;
 }
 
@@ -202,12 +202,17 @@ button {
 
 @media (max-width: 720px) {
   .container {
-    flex-wrap: wrap;
     margin-bottom: 50px;
     width: 86%;
+    flex-wrap: wrap;
+  }
+
+  .output {
+    margin-top: 0;
   }
 
   body {
     height: 100%;
+    font-family: sans-serif;
   }
 }
