@@ -51,7 +51,8 @@ generate.addEventListener("click", () => {
   if (noPeople.value == "" || billAmount == "") {
     alert("Input Field is Empty");
   } else if (cTip == -1 && percentage == -1) {
-    alert("Must Include Tip");
+    // alert("Must Include Tip");
+    percentage = 0;
   } else {
     if (cTip == -1) {
       TipAmount = Amount * (percentage / 100);
